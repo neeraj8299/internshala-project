@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.A {
+  background-color: white;
+  width: 130px;
+  max-width: 60%;
+  min-height: 600px;
+  border: 2px solid lightgrey;
+  padding: 50px;
+  border-left-width: 0px;
+  border-bottom-width: 0px;
+  margin: 20px;
+  margin-left: 50px;
+  margin-right: 0px;
+}
+.B{
+  background-color: white;
+  width: fit-content;
+  min-height: 600px;
+  min-width: 100%;
+  border: 2px solid lightgrey;
+  padding: 50px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  margin: 20px;
+  margin-left: -5px;
+  background-color: #FFFAFA;
+}
+.B1{
+  background-color: white;
+  width: fit-content;
+  min-width: 400px;
+  padding: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  margin: 2px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-radius: 25px;
+  border: 1px solid #000000;
+}
+.btn{
+  padding-bottom: -2px;
+  width: 100px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  float:right;
+  margin-left: 5px;
+}
+.B21{
+  background-color: white;
+  width: fit-content;
+  min-width: 220px;
+  min-height: 40px;
+  border: 2px solid lightgrey;
+  padding: 15px;
+  padding-left: 2px;
+  padding-right: 2px;
+  margin: 2px;
+  margin-top: -40px;
+  margin-bottom: 10px;
+  border: 1px solid grey;
+  margin-left: 25px;
+}
+.B22{
+  width: fit-content;
+  padding: 15px;
+  padding-left: 2px;
+  padding-right: 2px;
+  margin: 2px;
+  margin-top: -60px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+}
+.atd {
+  border-radius: 50%;
+  width:40px;
+  height:40px;
+  margin-left: -40px;
+  margin-top: -10px;
+}
+.teach{
+  border-radius: 50%;
+  width:120px;
+  height:120px;
+  margin-left: -80px;
+  margin-top: -40px;
+  padding-top: 0px;
+}
+.student{
+  border: 2px solid lightgrey;
+  background-color: lightgrey;
+  min-width: 220px;
+  padding-bottom: 0px;
+}
+.B12{
+  margin-top:-160px
+}
+a{
+  text-decoration: none;
+  color:#000000;
+}
+.new{
+  margin-top: -215px;
+}
+.new1{
+  margin-top:-112px;
+}
+</style>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<table>
+  <tr>
+    <td>
+    <div class="A">
+      <table>
+        <tr>
+          <td><img src="1.jpg" class="teach"></td>
+          <td>
+            <p style="font-weight: bold;margin-left: 30px;margin-top: -40px;">BSE 1st sem CSE All Subjects</p>
+            <p style="margin-top: -15px;font-size: small;margin-left: 30px;margin-top: -10px;">By jeet Sir</p>
+          </td>
+        </tr>
+      </table>
+      <button style="margin-top: 10px;margin-left: -80px;padding: 8px;padding-left:60px;
+      padding-right: 60px;background-color: red;border: 0px solid red;color: white;">Join Class</button>
+      <i class="fa fa-share-alt" style="font-size:24px;color:grey;font-weight:normal;padding:0px;margin-left:3px;margin-top:2px;"></i>
+      <ul style="list-style-type: none;">
+        <a href="">
+      <li style="margin-bottom: 10px;font-size: 17px;margin-left: -120px;padding: 0px;" class="active">
+        <i class="fa fa-wifi" style="color: red;"></i>
+        TimeLine
+      </li>
+    </a>
+    <a href="">
+      <li style="margin-bottom: 10px;font-size: 17px;margin-left: -120px;padding: 0px;" >
+        <i class="fa fa-sticky-note-o" style="color: red;"></i>
+        Live Class
+      </li>
+    </a>
+    <a href="">
+      <li style="margin-bottom: 10px;font-size: 17px;margin-left: -120px;padding: 0px;">
+        <i class="fa fa-laptop" style="color: red;"></i>
+        Notes
+      </li>
+    </a>
+    <a href="assignment.html">
+      <li style="margin-bottom: 10px;font-size: 17px;margin-left: -120px;padding: 0px;">
+        <i class="fa fa-tasks" style="color: red;"></i>
+        Assignment
+      </li>
+    </a>
+    <a href="test.html">
+      <li style="margin-bottom: 10px;font-size: 17px;margin-left: -120px;padding: 0px;">
+        <i class="fa fa-check-circle" style="color: red;"></i>
+        Test
+      </li>
+    </a>
+    <a href="attendence.html">
+      <li style="margin-bottom: 10px;font-size: 17px;margin-left: -120px;padding: 0px;">
+        <i class="fa fa-area-chart" style="color: red;"></i>
+        Attendence
+      </li>
+    </a>
+    <a href="#">
+      <li style="margin-bottom: 10px;font-size: 17px;margin-left: -120px;padding: 0px;">
+        <i class="fa fa-book" style="color: red;"></i>
+        Apply For Leave
+      </li>
+    </a>
+      </ul>
+    </div>
+    </td>
+    <td>
+    <div class="B">
+          <h1 style="color: red;margin-top:-40px;margin-bottom: -5px;padding: 0px;">Attendance</h1>
+      <table>
+        <tr>
+          <td>
+              <hr/>
+          <div class="B1">
+            <table>
+                <tr>
+                    <td>
+                        <div>
+                            <h4 style="color: lightgrey;margin-bottom: 2px;margin-top: -15px;padding-bottom: 0px;padding-top: 0px;">6 July 2020 10:12am</h4>
+                        </div>
+                    </td>
+                    <td>
+                        <h4 style="padding: 0px;margin-top: -10px;float: right;margin-left: 170px;">Online</h4>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div>
+                            <h4 style="color: lightgrey;margin-bottom: 5px;margin-top: -17px;padding-bottom: 0px;padding-top: 0px;">Duration: <strong style="color: black;">60 Min</strong></h4>
+                        </div>
+                    </td>
+                    <td>
+                      <div style="margin-left: 270px;margin-top: -20px;">
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                    </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div>
+                            <h4 style="color: lightgrey;margin-bottom: 5px;margin-top: -10px;padding-bottom: 0px;">Total Class Students: <strong style="color: black;">65%</strong></h4>
+                        </div>
+                    </td>
+                    <td>
+                          <div>
+                            <h4 style="color: lightgrey;margin-bottom: 5px;margin-top: -5px;padding-bottom: 0px;padding-top: 0px;margin-left: 190px;">Your Attendance: <strong style="color: black;">Present</strong></h4>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+          </div>
+        
+      </td>
+      <td>
+          <div class="B21">
+            <p style="size: 25px;margin:0px;margin-bottom: 10px;margin-left: 10px;">About ClassRoom</p>
+            <hr/>
+          </div>
+        </td>
+        </tr>
+      <tr>
+      <td>
+        <div class="B1 B12">
+          <table>
+              <tr>
+                  <td>
+                      <div>
+                          <h4 style="color: lightgrey;margin-bottom: 2px;margin-top: -15px;padding-bottom: 0px;padding-top: 0px;">6 July 2020 10:12am</h4>
+                      </div>
+                  </td>
+                  <td>
+                      <h4 style="padding: 0px;margin-top: -10px;float: right;margin-left: 170px;">Online</h4>
+                  </td>
+              </tr>
+              <tr>
+                  <td>
+                      <div>
+                          <h4 style="color: lightgrey;margin-bottom: 5px;margin-top: -17px;padding-bottom: 0px;padding-top: 0px;">Duration: <strong style="color: black;">60 Min</strong></h4>
+                      </div>
+                  </td>
+                  <td>
+                    <div style="margin-left: 270px;margin-top: -20px;">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                  </div>
+                  </td>
+              </tr>
+              <tr>
+                  <td>
+                      <div>
+                          <h4 style="color: lightgrey;margin-bottom: 5px;margin-top: -10px;padding-bottom: 0px;">Total Class Students: <strong style="color: black;">65%</strong></h4>
+                      </div>
+                  </td>
+                  <td>
+                        <div>
+                          <h4 style="color: lightgrey;margin-bottom: 5px;margin-top: -5px;padding-bottom: 0px;padding-top: 0px;margin-left: 190px;">Your Attendance: <strong style="color: black;">Present</strong></h4>
+                      </div>
+                  </td>
+              </tr>
+          </table>
+        </div>
+      </td>
+      <td>
+        <div class="B22">
+          <h4 style="color:grey;margin-bottom: -1px;">In Class</h4>
+          <div class="student">
+            <ul>
+              <li style="list-style-type: none;margin-bottom: 15px;">
+                <div class="s-info">
+                    <table>
+                    <tr>
+                      <td><img src="1.jpg" class="atd"/></td>
+                      <td><h4 style="margin-top: -7px;margin-left: 10px;font-size: 12px;">Name</h4>
+                      <p style="font-size: 10px;margin-top: -15px;margin-left: 10px;">About</p></td>
+                    </tr>
+                    </table>
+                </div>
+              </li>
+              
+              <li style="list-style-type: none;margin-bottom: 15px;">
+                <div class="s-info">
+                    <table>
+                    <tr>
+                      <td><img src="1.jpg" class="atd"/></td>
+                      <td><h4 style="margin-top: -7px;margin-left: 10px;font-size: 12px;">Name</h4>
+                      <p style="font-size: 10px;margin-top: -15px;margin-left: 10px;">About</p></td>
+                    </tr>
+                    </table>
+                </div>
+              </li>
+              <li style="list-style-type: none;margin-bottom: 15px;">
+                <div class="s-info">
+                    <table>
+                    <tr>
+                      <td><img src="1.jpg" class="atd"/></td>
+                      <td><h4 style="margin-top: -7px;margin-left: 10px;font-size: 12px;">Name</h4>
+                      <p style="font-size: 10px;margin-top: -15px;margin-left: 10px;">About</p></td>
+                    </tr>
+                    </table>
+                </div>
+              </li>
+              <li style="list-style-type: none;margin-bottom: 15px;">
+                <div class="s-info">
+                    <table>
+                    <tr>
+                      <td><img src="1.jpg" class="atd"/></td>
+                      <td><h4 style="margin-top: -7px;margin-left: 10px;font-size: 12px;">Name</h4>
+                      <p style="font-size: 10px;margin-top: -15px;margin-left: 10px;">About</p></td>
+                    </tr>
+                    </table>
+                </div>
+              </li>
+              <li style="list-style-type: none;margin-bottom: 15px;">
+                <div class="s-info">
+                    <table>
+                    <tr>
+                      <td><img src="1.jpg" class="atd"/></td>
+                      <td><h4 style="margin-top: -7px;margin-left: 10px;font-size: 12px;">Name</h4>
+                      <p style="font-size: 10px;margin-top: -15px;margin-left: 10px;">About</p></td>
+                    </tr>
+                    </table>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </td>
+      </tr>
+      
+      <tr>
+        <td>
+          <div class="B1 B12 new">
+            <table>
+                <tr>
+                    <td>
+                        <div>
+                            <h4 style="color: lightgrey;margin-bottom: 2px;margin-top: -15px;padding-bottom: 0px;padding-top: 0px;">6 July 2020 10:12am</h4>
+                        </div>
+                    </td>
+                    <td>
+                        <h4 style="padding: 0px;margin-top: -10px;float: right;margin-left: 170px;">Online</h4>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div>
+                            <h4 style="color: lightgrey;margin-bottom: 5px;margin-top: -17px;padding-bottom: 0px;padding-top: 0px;">Duration: <strong style="color: black;">60 Min</strong></h4>
+                        </div>
+                    </td>
+                    <td>
+                      <div style="margin-left: 270px;margin-top: -20px;">
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                    </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div>
+                            <h4 style="color: lightgrey;margin-bottom: 5px;margin-top: -10px;padding-bottom: 0px;">Total Class Students: <strong style="color: black;">65%</strong></h4>
+                        </div>
+                    </td>
+                    <td>
+                          <div>
+                            <h4 style="color: lightgrey;margin-bottom: 5px;margin-top: -5px;padding-bottom: 0px;padding-top: 0px;margin-left: 190px;">Your Attendance: <strong style="color: black;">Present</strong></h4>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+          </div>
+        </td>
+      </tr>
+      <tr style="">
+        <td>
+          <div class="B1 B12 new1">
+            <table>
+                <tr>
+                    <td>
+                        <div>
+                            <h4 style="color: lightgrey;margin-bottom: 2px;margin-top: -15px;padding-bottom: 0px;padding-top: 0px;">6 July 2020 10:12am</h4>
+                        </div>
+                    </td>
+                    <td>
+                        <h4 style="padding: 0px;margin-top: -10px;float: right;margin-left: 170px;">Online</h4>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div>
+                            <h4 style="color: lightgrey;margin-bottom: 5px;margin-top: -17px;padding-bottom: 0px;padding-top: 0px;">Duration: <strong style="color: black;">60 Min</strong></h4>
+                        </div>
+                    </td>
+                    <td>
+                      <div style="margin-left: 270px;margin-top: -20px;">
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                    </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div>
+                            <h4 style="color: lightgrey;margin-bottom: 5px;margin-top: -10px;padding-bottom: 0px;">Total Class Students: <strong style="color: black;">65%</strong></h4>
+                        </div>
+                    </td>
+                    <td>
+                          <div>
+                            <h4 style="color: lightgrey;margin-bottom: 5px;margin-top: -5px;padding-bottom: 0px;padding-top: 0px;margin-left: 190px;">Your Attendance: <strong style="color: black;">Present</strong></h4>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+          </div>
+        </td>
+      </tr>
+      </table>
+      </div>
+    </td>
+  </tr>
+</table>
+</body>
+</html>
+
